@@ -1,9 +1,5 @@
-import type { NextPage } from 'next';
+import type { NextPage } from "next";
 
-const Home: NextPage = () => {
-  return (
-    <div>Hola</div>
-  )
-}
+const Home: NextPage = () => <div>Hola</div>;
 
-export default Home
+export default Home;
